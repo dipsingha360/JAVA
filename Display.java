@@ -1,21 +1,25 @@
 package JAVA;
 
-public class Display {
-    private String firstName, lastName, password;
+public class Display extends Person {
+    private String password;
 
-    public Display(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+
+    public Display(String name) {
+        this.name = name;
 
         // call a method for password
         this.password = pass();
+        // this info extends from person class , name also
+        this.dateOfBirth = "02 may 1999";
+        this.profession = "Student";
     }
 
     String pass ( ) {
         return  password = "2345HEllo";
     }
+
     String show () {
-        return "Name : " + firstName + " " + lastName+ "\n" + "Password : " + password;
+        return "Name : " + name + "\n" + "Password : " + password + "\nDate of Birth : " + dateOfBirth + "\nProfession : " + profession;
     }
 
 }
