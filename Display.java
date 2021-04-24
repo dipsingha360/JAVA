@@ -12,6 +12,7 @@ public class Display extends Person {
         // this info extends from person class , name also
         this.dateOfBirth = "02 may 1999";
         this.profession = "Student";
+        this.PhoneNumber = "+880 1720166868";
     }
 
     String pass ( ) {
@@ -19,7 +20,7 @@ public class Display extends Person {
     }
 
     String show () {
-        return "Name : " + name + "\n" + "Password : " + password + "\nDate of Birth : " + dateOfBirth + "\nProfession : " + profession;
+        return "Name : " + name + "\n" + "Password : " + password + "\nDate of Birth : " + dateOfBirth + "\nProfession : " + profession + "\nPhone : " + PhoneNumber;
     }
 
 }
