@@ -23,4 +23,11 @@ public class Display extends Person {
         return "Name : " + name + "\n" + "Password : " + password + "\nDate of Birth : " + dateOfBirth + "\nProfession : " + profession + "\nPhone : " + PhoneNumber;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
