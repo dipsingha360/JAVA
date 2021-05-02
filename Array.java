@@ -1,6 +1,6 @@
 package JAVA;
 
-public class Others {
+public class Array {
 
     int [][] arr1 = { {1,2,3},
                       {4,5,6},
@@ -9,7 +9,7 @@ public class Others {
 
     String [][] arr2 = new String[3][3];
 
-    public Others( ) {
+    public Array( ) {
 
         System.out.println("-------------------------");
         for (int i=0; i<3; i++) {

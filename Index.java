@@ -11,8 +11,8 @@ public class Index {
 //        d1.setPassword("123456@Dip");
 //        System.out.printf("New Password is : %s",d1.getPassword());
 
-        // ----------Call from others class
-//        Others others1 = new Others();
+        // ----------Call from array class
+        Array arr1 = new Array();
 
         //------------Call from Abstraction class
 
