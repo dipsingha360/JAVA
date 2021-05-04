@@ -12,11 +12,13 @@ public class Index {
 //        System.out.printf("New Password is : %s",d1.getPassword());
 
         // ----------Call from array class
-        Array arr1 = new Array();
+//        Array arr1 = new Array();
 
-        //------------Call from Abstraction class
+        //------------Call from Abstract class
+//        Asus com1 = new Asus("asus 300M-5bd");
 
-        Asus com1 = new Asus("asus 300M-5bd");
+        //------------Call from Interfaces class
+        Interfaces n1 = new Interfaces("BMW Mordan Wolf");
 
 
 
